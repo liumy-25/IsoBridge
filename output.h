@@ -2,7 +2,7 @@ void outgtf(int i,int j)
 {
     // open gtf file
     ofstream fout;
-    fout.open("flow.gtf",ios::app);
+    fout.open("IsoBridge.gtf",ios::app);
     if (!fout)
     {
         cout << "File open error !" << endl;
